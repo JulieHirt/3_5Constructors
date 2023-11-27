@@ -23,11 +23,7 @@ namespace Constructors3_5
 			button2.Location = new Point(150, 0);
 			this.Controls.Add(button2);
 
-			//error because can't reuse e
-			//var button2 = new Button("Click Me", (s, event) => AlertBox.Show("You clicked me!"));
-			//this.Controls.Add(button2);
-
-			var button3 = CreateButton();
+			var button3 = new Button("Click Me", (s, args) => AlertBox.Show("You clicked me!"));
 			button3.Location = new Point(400, 0);
 			this.Controls.Add(button3);
 
@@ -38,9 +34,8 @@ namespace Constructors3_5
 			var button5 = CreateButton5();
 			this.Controls.Add(button5);
 
-			//error because can't reuse e
-			//var button6 = new Button("Button6", new Point(150, 50), new Size(100, 100), (s, e) => AlertBox.Show("You clicked button6!"));
-			//this.Controls.Add(button6);
+			var button6 = new Button("Button6", new Point(300, 50), new Size(100, 50), (s, args) => AlertBox.Show("You clicked button6!"));
+			this.Controls.Add(button6);
 
 			//constructor 4
 			var button7 = new Button("Button4", "menu-overflow", new Point(300, 150), new Size(100, 100));
@@ -48,11 +43,9 @@ namespace Constructors3_5
 
 			var button8 = CreateButton8();
 			this.Controls.Add(button8);
-		}
 
-		public Button CreateButton()
-		{
-			return new Button("Click Me", (s, e) => AlertBox.Show("You clicked me!"));
+			var button9 = new Button("Button9", "menu-overflow", new Point(0, 250), new Size(90, 50), (s, args) => AlertBox.Show("You clicked button9!"));
+			this.Controls.Add(button9);
 		}
 
 		public Button CreateButton5() 

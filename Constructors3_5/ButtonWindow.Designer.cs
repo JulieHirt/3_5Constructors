@@ -34,7 +34,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
 			this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(568, 284);
+			this.ClientSize = new System.Drawing.Size(597, 374);
 			this.Name = "ButtonWindow";
 			this.Text = "ButtonWindow";
 			this.Load += new System.EventHandler(this.ButtonWindow_Load);
