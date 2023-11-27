@@ -12,6 +12,9 @@ namespace Constructors3_5
 		{
 			ButtonWindow buttonWindow = new ButtonWindow();
 			buttonWindow.Show();
+
+			CheckboxWindow checkboxWindow = new CheckboxWindow();
+			checkboxWindow.Show();
 		}
 
 		//
