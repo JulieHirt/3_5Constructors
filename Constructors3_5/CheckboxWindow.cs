@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using Wisej.Web;
 
 namespace Constructors3_5
@@ -24,6 +25,10 @@ namespace Constructors3_5
 
 			var checkbox3 = new CheckBox("checkbox3");
 			flowLayoutPanel1.Controls.Add(checkbox3);
+
+			//constructor 3
+			var checkbox4 = new CheckBox("checkbox4", new Point(0, 50), new Size(100, 100), (s, args) => AlertBox.Show("You checked checkbox4"));
+			this.Controls.Add(checkbox4);
 
 
 		}
