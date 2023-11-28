@@ -18,6 +18,9 @@ namespace Constructors3_5
 
 			CheckedListBoxWindow checkedListBoxWindow = new CheckedListBoxWindow();
 			checkedListBoxWindow.Show();
+
+			ComboBoxWindow comboBoxWindow = new ComboBoxWindow();
+			comboBoxWindow.Show();
 		}
 
 		//
