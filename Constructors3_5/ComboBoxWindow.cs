@@ -69,15 +69,36 @@ namespace Constructors3_5
 			flowLayoutPanel1.Controls.Add(combobox10);
 
 			//constructor 7
+			ComboBox combobox11 = new ComboBox(new Point(0, 350), new Size(150, 250), null, null, null, null, null);
+			combobox11.Items.Add("combobox11 item1");
+			this.Controls.Add(combobox11);
 
-			//		combobox2.Items.Add(
-			//new
-			//{
-			//	ID = 1,
-			//	Name = "Wisej",
-			//	Icon = "icon-print",
-			//	Tooltip = "Tooltip for item 1"
-			//});
+			var myList12 = new List<dynamic>()
+{
+	new { id = 1, name = "apple", icon = "Images/apple.png" },
+	new { id = 2, name = "orange", icon = "menu-overflow"},
+	new { id = 3, name = "banana", icon = "menu-overflow"}
+};
+
+			ComboBox combobox12 = new ComboBox(new Point(0, 400), new Size(150, 250), myList12, "name", "id", "icon", (s, args) => AlertBox.Show("You selected an item from combobox12!"));
+			this.Controls.Add(combobox12);
+
+			//constructor 8
+
+			ComboBox combobox13 = new ComboBox("combobox13", new Point(300, 350), new Size(150, 250), null, null, null, null, null);
+			combobox13.Items.Add("combobox13 item1");
+			this.Controls.Add(combobox13);
+
+			var myList14 = new List<dynamic>()
+{
+	new { id = 1, name = "apple", icon = "Images/apple.png" },
+	new { id = 2, name = "orange", icon = "menu-overflow"},
+	new { id = 3, name = "banana", icon = "menu-overflow"}
+};
+
+			ComboBox combobox14 = new ComboBox("combobox14", new Point(300, 450), new Size(150, 250), myList14, "name", "id", "icon", (s, args) => AlertBox.Show("You selected an item from combobox14!"));
+			this.Controls.Add(combobox14);
+
 		}
 	}
 }
