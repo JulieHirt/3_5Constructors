@@ -21,6 +21,9 @@ namespace Constructors3_5
 
 			ComboBoxWindow comboBoxWindow = new ComboBoxWindow();
 			comboBoxWindow.Show();
+
+			DateTimePickerWindow dateTimePickerWindow = new DateTimePickerWindow();
+			dateTimePickerWindow.Show();
 		}
 
 		//
