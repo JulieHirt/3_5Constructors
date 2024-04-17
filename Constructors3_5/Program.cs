@@ -24,6 +24,9 @@ namespace Constructors3_5
 
 			DateTimePickerWindow dateTimePickerWindow = new DateTimePickerWindow();
 			dateTimePickerWindow.Show();
+
+			DomainUpDownWindow domainUpDownWindow = new DomainUpDownWindow();
+			domainUpDownWindow.Show();
 		}
 
 		//

@@ -15,7 +15,7 @@ namespace Constructors3_5
 		{
 			DateTimePicker datetimepicker1 = new DateTimePicker();
 			this.Controls.Add(datetimepicker1);
-			AlertBox.Show(datetimepicker1.Size.ToString());
+			//AlertBox.Show(datetimepicker1.Size.ToString());
 
 			Action<object, EventArgs> action = (obj, args) => { AlertBox.Show("changed"); };
 			DateTimePicker datetimepicker2 = new DateTimePicker(action);
