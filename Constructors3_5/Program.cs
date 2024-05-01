@@ -27,6 +27,9 @@ namespace Constructors3_5
 
 			DomainUpDownWindow domainUpDownWindow = new DomainUpDownWindow();
 			domainUpDownWindow.Show();
+
+			FlowLayoutPanelWindow flowLayoutPanelWindow = new FlowLayoutPanelWindow();
+			flowLayoutPanelWindow.Show();
 		}
 
 		//
