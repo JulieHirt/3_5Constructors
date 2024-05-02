@@ -37,6 +37,7 @@
 			this.ClientSize = new System.Drawing.Size(1159, 449);
 			this.Name = "FlowLayoutPanelWindow";
 			this.Text = "FlowLayoutPanelWindow";
+			this.Load += new System.EventHandler(this.FlowLayoutPanelWindow_Load);
 			this.ResumeLayout(false);
 
 		}
