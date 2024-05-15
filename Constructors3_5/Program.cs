@@ -30,6 +30,9 @@ namespace Constructors3_5
 
 			FlowLayoutPanelWindow flowLayoutPanelWindow = new FlowLayoutPanelWindow();
 			flowLayoutPanelWindow.Show();
+
+			FormWindow formWindow = new FormWindow();
+			formWindow.Show();
 		}
 
 		//
