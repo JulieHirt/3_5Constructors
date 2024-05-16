@@ -39,12 +39,29 @@ namespace Constructors3_5
 			Form form4 = new Form(controlArray2);
 			//form4.ShowDialog();
 
+
+			//constructor 4
 			var button1_3 = new Button("Button 1-3");
 			var button2_3 = new Button("Button 2-3", new Point(0, 50), new Size(100, 100));
 			var button3_3 = new Button("Button 3-3", new Point(120, 50), new Size(100, 100));
 			Control[] controlArray3 = new Control[] { button1_3, button2_3, button3_3 };
 			Form form5 = new Form(new Point(100, 50), new Size(400, 400),controlArray3);
-			form5.ShowDialog();
+			//form5.ShowDialog();
+
+			//can't do this: Form form = new Form(new Point(100, 50), new Size(400, 400)); 
+			//because it can't differentiate between constructor 4 5 and 6
+
+			//constructor 5
+			Form form6 = new Form(new Point(100, 50), new Size(400, 400), action);
+			//form6.ShowDialog();
+
+			//constructor 6
+			var button1_4 = new Button("Button 1-4");
+			var button2_4 = new Button("Button 2-4", new Point(0, 50), new Size(100, 100));
+			var button3_4 = new Button("Button 3-4", new Point(120, 50), new Size(100, 100));
+			Control[] controlArray4 = new Control[] { button1_3, button2_3, button3_3 };
+			Form form7 = new Form(new Point(100, 50), new Size(400, 400), controlArray4, action);
+			form7.ShowDialog();
 
 		}
 	}
