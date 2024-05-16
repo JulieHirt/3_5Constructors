@@ -32,6 +32,9 @@ namespace Constructors3_5
 			//constructor 3
 			LinkLabel linkLabel4 = new LinkLabel("here is a very very long text", new Point(0, 100), new Size(100, 50), action);
 			this.Controls.Add(linkLabel4);
+
+			LinkLabel linkLabel5 = new LinkLabel("here is a very very long text", new Point(0, 180), new Size(100, 50));
+			this.Controls.Add(linkLabel5);
 		}
 	}
 }
