@@ -33,6 +33,9 @@ namespace Constructors3_5
 
 			FormWindow formWindow = new FormWindow();
 			formWindow.Show();
+
+			LinkLabelWindow linkLabelWindow = new LinkLabelWindow();
+			linkLabelWindow.Show();
 		}
 
 		//
