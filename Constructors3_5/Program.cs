@@ -36,6 +36,9 @@ namespace Constructors3_5
 
 			LinkLabelWindow linkLabelWindow = new LinkLabelWindow();
 			linkLabelWindow.Show();
+
+			ListBoxWindow listBoxWindow = new ListBoxWindow();
+			listBoxWindow.Show();
 		}
 
 		//
