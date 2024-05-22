@@ -80,6 +80,28 @@ namespace Constructors3_5
 			this.Controls.Add(listBox9);
 
 
+			Point location10 = new Point(250, 220);
+			Size size10 = new Size(100, 100);
+			ListBox listBox10 = new ListBox(location10, size10, PeopleList, "Age");
+			this.Controls.Add(listBox10);
+
+			Point location11 = new Point(400, 220);
+			Size size11 = new Size(110, 110);
+			ListBox listBox11 = new ListBox(location11, size11, PeopleList, "Age", "FirstName");
+			this.Controls.Add(listBox11);
+
+			Point location12 = new Point(0, 320);
+			Size size12 = new Size(120, 120);
+			ListBox listBox12 = new ListBox(location12, size12, PeopleList, "Age", "FirstName", "Picture");
+			this.Controls.Add(listBox12);
+
+			Point location13 = new Point(120, 320);
+			Size size13 = new Size(130, 130);
+			ListBox listBox13 = new ListBox(location13, size13, PeopleList, "Age", "FirstName", "Picture", action);
+			this.Controls.Add(listBox13);
+
+
+
 		}
 	}
 

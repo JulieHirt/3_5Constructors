@@ -34,7 +34,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
 			this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(727, 338);
+			this.ClientSize = new System.Drawing.Size(725, 460);
 			this.Name = "ListBoxWindow";
 			this.Text = "ListBoxWindow";
 			this.Load += new System.EventHandler(this.ListBoxWindow_Load);
