@@ -39,6 +39,9 @@ namespace Constructors3_5
 
 			ListBoxWindow listBoxWindow = new ListBoxWindow();
 			listBoxWindow.Show();
+
+			MaskedTextBoxWindow maskedTextBoxWindow = new MaskedTextBoxWindow();
+			maskedTextBoxWindow.Show();
 		}
 
 		//
