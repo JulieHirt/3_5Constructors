@@ -42,6 +42,9 @@ namespace Constructors3_5
 
 			MaskedTextBoxWindow maskedTextBoxWindow = new MaskedTextBoxWindow();
 			maskedTextBoxWindow.Show();
+
+			MonthCalendarWindow monthCalendarWindow = new MonthCalendarWindow();
+			monthCalendarWindow.Show();
 		}
 
 		//
