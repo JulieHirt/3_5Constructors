@@ -45,6 +45,9 @@ namespace Constructors3_5
 
 			MonthCalendarWindow monthCalendarWindow = new MonthCalendarWindow();
 			monthCalendarWindow.Show();
+
+			NumericUpDownWindow numericUpDownWindow = new NumericUpDownWindow();
+			numericUpDownWindow.Show();
 		}
 
 		//
