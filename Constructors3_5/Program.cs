@@ -51,6 +51,9 @@ namespace Constructors3_5
 
 			RadioButtonWindow radioButtonWindow = new RadioButtonWindow();
 			radioButtonWindow.Show();
+
+			TabControlWindow tabControlWindow = new TabControlWindow();
+			tabControlWindow.Show();
 		}
 
 		//
