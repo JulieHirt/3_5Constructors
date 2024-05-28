@@ -48,6 +48,9 @@ namespace Constructors3_5
 
 			NumericUpDownWindow numericUpDownWindow = new NumericUpDownWindow();
 			numericUpDownWindow.Show();
+
+			RadioButtonWindow radioButtonWindow = new RadioButtonWindow();
+			radioButtonWindow.Show();
 		}
 
 		//
