@@ -34,7 +34,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
 			this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(837, 381);
+			this.ClientSize = new System.Drawing.Size(837, 592);
 			this.Name = "TabControlWindow";
 			this.Text = "TabControlWindow";
 			this.Load += new System.EventHandler(this.TabControlWindow_Load);
