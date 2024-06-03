@@ -77,8 +77,15 @@ namespace Constructors3_5
 			TabControl tabControl5 = new TabControl(location5, size5, tabPages5);
 			this.Controls.Add(tabControl5);
 
-
-			//TabControl tabControl6 = new TabControl(location6, size6, tabPages6, action)
+			Point location6 = new Point(0, 280);
+			Size size6 = new Size(200, 200);
+			TabPage tabPage6_1 = new Wisej.Web.TabPage();
+			tabPage6_1.Text = "tabPage6_1";
+			TabPage tabPage6_2 = new Wisej.Web.TabPage();
+			tabPage6_2.Text = "tabPage6_2";
+			TabPage[] tabPages6 = new TabPage[] { tabPage6_1, tabPage6_2 };
+			TabControl tabControl6 = new TabControl(location6, size6, tabPages6, action);
+			this.Controls.Add(tabControl6);
 		}
 	}
 }
