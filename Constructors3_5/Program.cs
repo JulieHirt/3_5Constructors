@@ -54,6 +54,9 @@ namespace Constructors3_5
 
 			TabControlWindow tabControlWindow = new TabControlWindow();
 			tabControlWindow.Show();
+
+			TextBoxWindow textBoxWindow = new TextBoxWindow();
+			textBoxWindow.Show();
 		}
 
 		//
