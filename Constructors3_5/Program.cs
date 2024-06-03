@@ -57,6 +57,9 @@ namespace Constructors3_5
 
 			TextBoxWindow textBoxWindow = new TextBoxWindow();
 			textBoxWindow.Show();
+
+			TrackBarWindow trackBarWindow = new TrackBarWindow();
+			trackBarWindow.Show();
 		}
 
 		//
