@@ -34,7 +34,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
 			this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(754, 328);
+			this.ClientSize = new System.Drawing.Size(1000, 223);
 			this.Name = "TextBoxWindow";
 			this.Text = "TextBoxWindow";
 			this.Load += new System.EventHandler(this.TextBoxWindow_Load);
