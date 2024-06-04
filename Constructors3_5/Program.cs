@@ -60,6 +60,9 @@ namespace Constructors3_5
 
 			TrackBarWindow trackBarWindow = new TrackBarWindow();
 			trackBarWindow.Show();
+
+			WebBrowserWindow webBrowserWindow = new WebBrowserWindow();
+			webBrowserWindow.Show();
 		}
 
 		//
