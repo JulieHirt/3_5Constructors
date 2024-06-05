@@ -63,6 +63,9 @@ namespace Constructors3_5
 
 			WebBrowserWindow webBrowserWindow = new WebBrowserWindow();
 			webBrowserWindow.Show();
+
+			TablelayoutPanelWindow tablelayoutPanelWindow = new TablelayoutPanelWindow();
+			tablelayoutPanelWindow.Show();
 		}
 
 		//
