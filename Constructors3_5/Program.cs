@@ -66,6 +66,9 @@ namespace Constructors3_5
 
 			TablelayoutPanelWindow tablelayoutPanelWindow = new TablelayoutPanelWindow();
 			tablelayoutPanelWindow.Show();
+
+			TypedTextBoxWindow typedTextBoxWindow = new TypedTextBoxWindow();
+			typedTextBoxWindow.Show();
 		}
 
 		//
