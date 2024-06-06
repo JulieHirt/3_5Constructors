@@ -22,6 +22,15 @@ namespace Constructors3_5
 			TypedTextBox typedTextBox1 = new TypedTextBox(action);
 			typedTextBox1.Location = new Point(100, 0);
 			this.Controls.Add(typedTextBox1);
+
+			//constructor 3
+			TypedTextBox typedTextBox2 = new TypedTextBox("label");
+			typedTextBox2.Location = new Point(200, 0);
+			this.Controls.Add(typedTextBox2);
+
+			TypedTextBox typedTextBox3 = new TypedTextBox("label",action);
+			typedTextBox3.Location = new Point(300, 0);
+			this.Controls.Add(typedTextBox3);
 		}
 	}
 }
