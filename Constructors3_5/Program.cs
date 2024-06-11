@@ -69,6 +69,9 @@ namespace Constructors3_5
 
 			TypedTextBoxWindow typedTextBoxWindow = new TypedTextBoxWindow();
 			typedTextBoxWindow.Show();
+
+			AccordionWindow accordionWindow = new AccordionWindow();
+			accordionWindow.Show();
 		}
 
 		//
