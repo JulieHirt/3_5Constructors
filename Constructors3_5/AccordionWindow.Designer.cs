@@ -34,7 +34,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
 			this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(814, 325);
+			this.ClientSize = new System.Drawing.Size(967, 480);
 			this.Name = "AccordionWindow";
 			this.Text = "AccordionWindow";
 			this.Load += new System.EventHandler(this.AccordionWindow_Load);
