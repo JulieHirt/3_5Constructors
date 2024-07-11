@@ -48,8 +48,11 @@ namespace Constructors3_5
 			Form form5 = new Form(new Point(100, 50), new Size(400, 400),controlArray3);
 			//form5.ShowDialog();
 
+
 			//can't do this: Form form = new Form(new Point(100, 50), new Size(400, 400)); 
 			//because it can't differentiate between constructor 4 5 and 6
+			//does not work even if last parameter is null
+			//Form formtest = new Form(new Point(100, 50), new Size(400, 400), null);
 
 			//constructor 5
 			Form form6 = new Form(new Point(100, 50), new Size(400, 400), action);
